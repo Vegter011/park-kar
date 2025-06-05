@@ -1,7 +1,7 @@
 # 🚗 Park'kar – Revolutionizing Urban Parking
 
 **Park'kar** is a smart React.js web application that connects drivers to available parking spaces—residential or commercial—**in real-time**. Designed to ease the chaos of urban parking, it brings technology, convenience, and trust into one streamlined experience.
-(https://github.com/Vegter011/park-kar/blob/main/Park_kar_screenshot.png)
+![Screenshot of homepage](./Park_kar_screenshot.png))
 ---
 
 ## ❓ Problem Statement
