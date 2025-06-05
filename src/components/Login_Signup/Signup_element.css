@@ -1,0 +1,95 @@
+.main{
+    display: flex;
+    padding: 40px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 50px 80px 50px 80px;
+    border-radius: 20px;
+}
+
+legend h2{
+    margin:0 10px 0 10px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.input-fld-design{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    padding: 20px 0 20px 0;
+}
+
+.login-form #remember{
+    text-align: left;
+}
+
+.login-form input[type="checkbox"]{
+    margin-right: 5%;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.design{
+    padding: 3%;
+    border: 2px solid rgba(255, 255, 255, 0.795);
+    outline: 2px solid black;
+    border-radius: 6px;
+    background: black;
+    color:white;
+}
+
+.design:focus{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    outline: 2px solid white;
+}
+
+.design:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    outline: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.login-form button{
+    padding: 4% 0 4% 0;
+    outline: 2px solid white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+
+.login-form button:hover{
+    color: black;
+    background: linear-gradient(106.7deg, rgba(236, 230, 241, 0.929) 12.1%, rgba(196, 132, 248, 0.87) 63.2%);
+}
+
+.login-form button:active{
+    color: white;
+    background: black;
+}
+
+.form-footer a{
+    text-decoration: none;
+    color: rgba(134, 114, 237, 0.943);
+}
+
+.form-footer{
+    padding-top: 5%;
+}
