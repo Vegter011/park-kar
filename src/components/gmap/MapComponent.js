@@ -19,7 +19,7 @@ const fixedLocations = [
 
 const MapComponent = ({ center }) => {
   return (
-    <LoadScript googleMapsApiKey="AIzaSyCjmF_4GoiVLhCmjmja-hXfbru9iDYBOGk">
+    <LoadScript googleMapsApiKey="***************************************">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center || { lat: 28.4738, lng: 77.4859 }} // Default to a central location if no center provided
